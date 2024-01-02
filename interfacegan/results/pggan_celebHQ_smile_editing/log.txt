@@ -1,0 +1,19 @@
+[2022-07-21 10:08:02,318][INFO] Initializing generator.
+[2022-07-21 10:08:02,545][INFO] Loading pytorch model from `models/pretrain/pggan_celebahq.pth`.
+[2022-07-21 10:08:02,846][INFO] Successfully loaded!
+[2022-07-21 10:08:02,847][INFO]   `lod` of the loaded model is 0.0.
+[2022-07-21 10:08:06,904][INFO] Preparing boundary.
+[2022-07-21 10:08:06,932][INFO] Preparing latent codes.
+[2022-07-21 10:08:06,932][INFO]   Sample latent codes randomly.
+[2022-07-21 10:08:06,934][INFO] Editing 10 samples.
+[2022-07-21 10:08:08,357][DEBUG]   Finished sample   0.
+[2022-07-21 10:08:09,360][DEBUG]   Finished sample   1.
+[2022-07-21 10:08:10,468][DEBUG]   Finished sample   2.
+[2022-07-21 10:08:11,468][DEBUG]   Finished sample   3.
+[2022-07-21 10:08:12,592][DEBUG]   Finished sample   4.
+[2022-07-21 10:08:13,672][DEBUG]   Finished sample   5.
+[2022-07-21 10:08:14,697][DEBUG]   Finished sample   6.
+[2022-07-21 10:08:15,694][DEBUG]   Finished sample   7.
+[2022-07-21 10:08:16,714][DEBUG]   Finished sample   8.
+[2022-07-21 10:08:17,736][DEBUG]   Finished sample   9.
+[2022-07-21 10:08:17,736][INFO] Successfully edited 10 samples.

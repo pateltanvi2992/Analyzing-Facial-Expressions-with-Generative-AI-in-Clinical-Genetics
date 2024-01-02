@@ -1,0 +1,17 @@
+[2022-07-20 16:13:35,324][INFO] Initializing generator.
+[2022-07-20 16:13:35,540][WARNING] No pre-trained model will be loaded!
+[2022-07-20 16:13:38,108][INFO] Preparing boundary.
+[2022-07-20 16:13:38,115][INFO] Preparing latent codes.
+[2022-07-20 16:13:38,115][INFO]   Sample latent codes randomly.
+[2022-07-20 16:13:38,117][INFO] Editing 10 samples.
+[2022-07-20 16:13:39,088][DEBUG]   Finished sample   0.
+[2022-07-20 16:13:40,049][DEBUG]   Finished sample   1.
+[2022-07-20 16:13:41,004][DEBUG]   Finished sample   2.
+[2022-07-20 16:13:42,028][DEBUG]   Finished sample   3.
+[2022-07-20 16:13:42,987][DEBUG]   Finished sample   4.
+[2022-07-20 16:13:43,948][DEBUG]   Finished sample   5.
+[2022-07-20 16:13:44,908][DEBUG]   Finished sample   6.
+[2022-07-20 16:13:45,867][DEBUG]   Finished sample   7.
+[2022-07-20 16:13:46,900][DEBUG]   Finished sample   8.
+[2022-07-20 16:13:47,858][DEBUG]   Finished sample   9.
+[2022-07-20 16:13:47,858][INFO] Successfully edited 10 samples.
