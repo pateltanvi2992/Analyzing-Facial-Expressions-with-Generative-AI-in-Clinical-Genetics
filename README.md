@@ -1,6 +1,6 @@
 # Use of generativeAI to analyze facial expression changes in clinical genetics
  This repository contains studies of the use of generative AI to analyze genetic disease-related facial expressions. The project focuses on using generative models to analyze and comprehend the distinct facial expressions linked to different genetic conditions through the use of the latest methods.
-![Workflow of face expression changes in clinical genetics]
+![Workflow of face expression changes in clinical genetics](images/Face_Expressions_chages_flowchart.png)
 ## Environment
 All required Python packages are listed in the ```environment/hyperstyle_env.yaml````file. Create and activate Python environment
 
