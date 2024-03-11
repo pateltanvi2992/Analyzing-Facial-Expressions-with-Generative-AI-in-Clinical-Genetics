@@ -196,6 +196,16 @@ We have use InterFaceGAN to generate smile boundry for genetic conditions.
 
 <br>
 
+### Search Semantic Boundary using interfacegan
+
+```bash
+python train_boundary.py \
+    -o interfacegan/boundaries/WS/ \
+    -c hyperstyle/experiments/directions/latents.npy \
+    -s hyperstyle/experiments/directions/expression_score.npy
+```
+<br>
+
 ### Editing Faces with InterFaceGAN for Noonan syndrome
 To save the hyperstyle Genetic conditions models [HyperStyle pretrained Genetic conditions model](https://drive.google.com/file/d/1ipEk5iPDq6PLo2zNCrtmwW1wlcE78Atz/view?usp=drive_link)
 ```
@@ -215,15 +225,6 @@ We have use InterFaceGAN to generate smile boundry for genetic conditions. In th
 Using the script provided, along with our pre-trained models and parameters, we have successfully generated this stripe.  
 ![Workflow of face expression changes in clinical genetics](images/Ns_Smile_102.jpg)
 <br>
-
-### Search Semantic Boundary using interfacegan
-
-```bash
-python train_boundary.py \
-    -o interfacegan/boundaries/WS/ \
-    -c hyperstyle/experiments/directions/latents.npy \
-    -s hyperstyle/experiments/directions/expression_score.npy
-```
 
 # Credits
 **StyleGAN2 model and implementation:**  
