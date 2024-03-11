@@ -212,9 +212,8 @@ python editing/inference_face_editing.py \
 ```
 For InterFaceGAN they currently support edits of age, pose, and smile. 
 We have use InterFaceGAN to generate smile boundry for genetic conditions. In this example we showed how we generated Noonan syndrome stripes with expression change with syndromic features. 
-Using the script provided, along with our pre-trained models and parameters, we have successfully generated these stripes.  
-![Workflow of face expression changes in clinical genetics](images/NS_Smile_60.jpg)
-![Workflow of face expression changes in clinical genetics](images/NS_Smile_102.jpg)
+Using the script provided, along with our pre-trained models and parameters, we have successfully generated this stripe.  
+![Workflow of face expression changes in clinical genetics](images/Ns_Smile_102.jpg)
 <br>
 
 ### Search Semantic Boundary using interfacegan
