@@ -196,6 +196,27 @@ We have use InterFaceGAN to generate smile boundry for genetic conditions.
 
 <br>
 
+### Editing Faces with InterFaceGAN for Noonan syndrome
+To save the hyperstyle Genetic conditions models [HyperStyle pretrained Genetic conditions model](https://drive.google.com/file/d/1ipEk5iPDq6PLo2zNCrtmwW1wlcE78Atz/view?usp=drive_link)
+```
+python editing/inference_face_editing.py \
+ --exp_dir="Expected path to save the stripes" \
+ --checkpoint_path="load the saved model 'HyperStyle pretrained Genetic conditions model'" \
+ --data_path="load the Noonan syndrome original images folder path"  \
+ --test_batch_size=4 \
+ --test_workers=4 \
+ --n_iters_per_batch=3 \
+ --edit_directions=ns_smile\
+ --factor_range=4 \
+ --load_w_encoder
+```
+For InterFaceGAN they currently support edits of age, pose, and smile. 
+We have use InterFaceGAN to generate smile boundry for genetic conditions. In this example we showed how we generated Noonan syndrome stripes with expression change with syndromic features. 
+Using the script provided, along with our pre-trained models and parameters, we have successfully generated these stripes.  
+![Workflow of face expression changes in clinical genetics](images/NS_Smile_60.jpg)
+![Workflow of face expression changes in clinical genetics](images/NS_Smile_102.jpg)
+<br>
+
 ### Search Semantic Boundary using interfacegan
 
 ```bash
