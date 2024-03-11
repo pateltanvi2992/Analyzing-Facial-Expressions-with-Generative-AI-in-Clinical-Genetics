@@ -206,7 +206,7 @@ python train_boundary.py \
 ```
 <br>
 
-### Editing Faces with InterFaceGAN for Noonan syndrome
+### Editing Faces with HyperStyle with interfacegan (SVM) direction for Noonan syndrome
 To save the hyperstyle Genetic conditions models [HyperStyle pretrained Genetic conditions model](https://drive.google.com/file/d/1ipEk5iPDq6PLo2zNCrtmwW1wlcE78Atz/view?usp=drive_link)
 ```
 python editing/inference_face_editing.py \
