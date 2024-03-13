@@ -23,7 +23,7 @@ class FaceEditor:
         direction = self.interfacegan_directions[direction]
         if factor_range is not None:  # Apply a range of editing factors. for example, (-5, 5)
             for f in range(*factor_range):
-                edit_latent = latents + (10*f) * direction
+                edit_latent = latents + (4*f) * direction
                 edit_latents.append(edit_latent)
             edit_latents = torch.stack(edit_latents).transpose(0,1)
         else:
