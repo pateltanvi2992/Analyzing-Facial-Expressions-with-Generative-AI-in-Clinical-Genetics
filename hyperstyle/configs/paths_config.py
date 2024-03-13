@@ -58,9 +58,10 @@ model_paths = {
 edit_paths = {
 	'age': 'editing/interfacegan_directions/age.pt',
 	'smile': 'editing/interfacegan_directions/smile.pt',
-        'ws_smile': 'editing/interfacegan_directions/ws_boundary.pt',
+        'ws_smile': 'editing/interfacegan_directions/WS_boundary.pt',
         '22q_smile': 'editing/interfacegan_directions/22q_boundary.pt',
-        'ns_smile': 'editing/interfacegan_directions/ns_boundary.pt',
+        'ns_smile': 'editing/interfacegan_directions/NS_boundary.pt',
+	'as_smile': 'editing/interfacegan_directions/AS_boundary.pt',
 	'pose': 'editing/interfacegan_directions/pose.pt',
 	'cars': 'editing/ganspace_directions/cars_pca.pt',
 	'styleclip': {
