@@ -206,7 +206,7 @@ python train_boundary.py \
 ```
 <br>
 
-### Editing Faces with HyperStyle with interfacegan (SVM) direction for Noonan syndrome
+## Editing Faces with HyperStyle with interfacegan (SVM) direction for Noonan syndrome
 To save the hyperstyle Genetic conditions models [HyperStyle pretrained Genetic conditions model](https://drive.google.com/file/d/1ipEk5iPDq6PLo2zNCrtmwW1wlcE78Atz/view?usp=drive_link)
 ```
 python editing/inference_face_editing.py \
@@ -221,7 +221,7 @@ python editing/inference_face_editing.py \
  --load_w_encoder
 ```
 For InterFaceGAN they currently support edits of age, pose, and smile. 
-We utilized InterFaceGAN (SVM) to search sematic boundry to produce smile boundaries for various genetic conditions featured in our main paper, such as Angelman Syndrome (AS), Noonan Syndrome (NS), Williams Syndrome (WS), and 22q11 deletion syndrome (22q). Specifically, we demonstrated the generation of Noonan syndrome patterns with altered expressions reflecting syndromic characteristics. Employing the provided script alongside our pre-trained models and parameters, we achieved successful generation of these patterns. Moreover, you can access the python note book [https://github.com/pateltanvi2992/Analyzing-Facial-Expressions-with-Generative-AI-in-Clinical-Genetics/blob/main/GenAI_Genetics_notebook.ipynb] from this link to generate the stripes for genetic conditions to alter facial expressions. 
+We utilized InterFaceGAN (SVM) to search sematic boundry to produce smile boundaries for various genetic conditions featured in our main paper, such as Angelman Syndrome (AS), Noonan Syndrome (NS), Williams Syndrome (WS), and 22q11 deletion syndrome (22q). Specifically, we demonstrated the generation of Noonan syndrome patterns with altered expressions reflecting syndromic characteristics. Employing the provided script alongside our pre-trained models and parameters, we achieved successful generation of these patterns. Moreover, you can access the python notebook [https://github.com/pateltanvi2992/Analyzing-Facial-Expressions-with-Generative-AI-in-Clinical-Genetics/blob/main/GenAI_Genetics_notebook.ipynb] from this link to generate the stripes for genetic conditions to alter facial expressions. 
  
 ![Workflow of face expression changes in clinical genetics](images/Ns_Smile_102.jpg)
 <br>
