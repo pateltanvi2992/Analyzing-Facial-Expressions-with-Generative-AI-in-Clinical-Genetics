@@ -15,17 +15,6 @@ class FaceEditor:
             '22q_smile': torch.load(edit_paths['22q_smile']).cuda(),
 	    'ns_smile': torch.load(edit_paths['ns_smile']).cuda(),
             'as_smile': torch.load(edit_paths['as_smile']).cuda(),
-            'ns_new_smile': torch.load(edit_paths['ns_new_smile']).cuda(),
-	    'NS_new_95_percent_smile': torch.load(edit_paths['NS_new_95_percent_smile']).cuda(),
-            'ns_selected_95_percent_boundry': torch.load(edit_paths['ns_selected_95_percent_boundry']).cuda(),
-	    '22q_selected_1_boundary': torch.load(edit_paths['22q_selected_1_boundary']).cuda(),
-            '22q_new_corrected_boundary': torch.load(edit_paths['22q_new_corrected_boundary']).cuda(),
-            '22q_least_boundary' : torch.load(edit_paths['22q_least_boundary']).cuda(),
-            '22q_least_AddedUnaffected_boundary' : torch.load(edit_paths['22q_least_AddedUnaffected_boundary']).cuda(),
-	    'AS_selected_boundary' : torch.load(edit_paths['AS_selected_boundary']).cuda(),
-            'unaffected_to_KS' : torch.load(edit_paths['unaffected_to_KS']).cuda(),
-            'KS_to_unaffected' : torch.load(edit_paths['KS_to_unaffected']).cuda(),
-            'WS_No_Smile' : torch.load(edit_paths['WS_No_Smile']).cuda(),
             'pose': torch.load(edit_paths['pose']).cuda()
         }
 
