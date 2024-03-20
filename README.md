@@ -99,6 +99,8 @@ The main training script can be found in `scripts/train.py`.
 Intermediate training results are saved to `opts.exp_dir`. This includes checkpoints, train outputs, and test outputs.  
 Additionally, if you have tensorboard installed, you can visualize tensorboard logs in `opts.exp_dir/logs`. 
 
+Specifically, we first randomly partitioned the 70,000 FFHQ images into 59,600 and 10,400 for training and validation, respectively. Next, we added our 3,516 syndromic images into the training set. This yields a final training dataset of size 63,116 (from 59,600 and 3,516) which enabled us to reliably train HyperStyle. 
+
 Training HyperStyle with the settings used in the paper can be done by running the following command. Here, we provide an example for training on the genetic condition human faces domain:
 
 ```
